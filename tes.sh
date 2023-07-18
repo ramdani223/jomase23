@@ -1,7 +1,3 @@
-pkg install automake clang git nano -y
-git clone https://github.com/decryp2kanon/sugarmaker
-cd sugarmaker
-./autogen.sh
-./configure CFLAGS="-Wall -O2 -fomit-frame-pointer" CXXFLAGS="$CFLAGS -std=gnu++11"
-make
-./sugarmaker -o stratum+tcp://stratum-ru.rplant.xyz:7042 -u sugar1qfrq5zfyz9ktxfpx6m0qwlm8rwn0jx9nvh2tgnu -t 4
+#veruscoin
+sudo apt update
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l na.luckpool.net:3956 -u RDWtGX6HTy1i12Tmhjux7iExyAVzVap23L.cpu1 -p x -t 4
