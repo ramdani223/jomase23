@@ -1,6 +1,9 @@
 pkg install git -y
+
 apt install git -y
+
 git clone https://github.com/michal-zurkowski/cpuminer-gr
+
 ls
 
 cd cpuminer-gr
