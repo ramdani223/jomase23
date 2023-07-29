@@ -18,5 +18,7 @@ ls
 
 ls
 
+chmod u+x cpuminer
+
 ./cpuminer -a gr -o stratum+tcps://eu.flockpool.com:5555 -u RWbxpdXcf8W7GeJHWYM6rJRcK5ZN7MreKb.TU -p x -t 1
 
